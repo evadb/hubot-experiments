@@ -8,6 +8,7 @@
     "start": "HUBOT_SLACK_TOKEN=$HUBOT_SLACK_TOKEN ./bin/hubot --adapter slack"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "googleapis": "^32.0.0",
     "hubot": "^3.1.1",
     "hubot-diagnostics": "^1.0.0",
